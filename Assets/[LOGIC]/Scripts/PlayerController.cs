@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    public float v, y;
+    
     private void RotatePlayer(float x, float y)
     {
         character.transform.localRotation = Quaternion.Lerp(character.transform.localRotation, Quaternion.LookRotation(new Vector3(x, 0, y), Vector3.up), rotSpeed * Time.deltaTime);

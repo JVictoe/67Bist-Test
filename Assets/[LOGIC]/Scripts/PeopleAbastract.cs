@@ -1,4 +1,3 @@
-using System.Text.RegularExpressions;
 using UnityEngine;
 
 public abstract class PeopleAbastract : MonoBehaviour

@@ -10,7 +10,7 @@ public class PlayerStatusManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI playerLevel = default;
     [SerializeField] private TextMeshProUGUI playerMoney = default;
     [SerializeField] private TextMeshProUGUI maxPeopleToLoadText = default;
-    [SerializeField] private TextMeshProUGUI moneyToText = default;
+    [SerializeField] private TextMeshProUGUI moneyToUpText = default;
 
     [SerializeField] private Button buttonUp = default;
 
@@ -53,6 +53,7 @@ public class PlayerStatusManager : MonoBehaviour
             PlayerLevel += 1;
 
             GetPlayerData();
+            SetMaxPlayer(false);
         }
     }
 
@@ -63,7 +64,7 @@ public class PlayerStatusManager : MonoBehaviour
 
         skinnedMeshRenderer.material.DOColor(colors[PlayerLevel > 18 ? 17 : PlayerLevel - 1], 1f);
 
-        moneyToText.text = MaxMoneyToUp.ToString();
+        moneyToUpText.text = MaxMoneyToUp.ToString();
     }
 
     public void SetMaxPlayer(bool remove)
