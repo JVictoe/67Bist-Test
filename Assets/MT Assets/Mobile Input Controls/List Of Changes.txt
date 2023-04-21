@@ -1,0 +1,87 @@
+
+/////////////////////
+	  MT ASSETS
+	  CHANGELOG
+/////////////////////
+
+v1.6.3
+	- Correction of small bugs.
+
+v1.6.2
+	- A bug has been fixed that caused the automatic deactivation of some scripts' Gizmos to stop working.
+	- Fixed a bug where changing Mobile Input Controls UI parameters did not work on some versions
+	  of Unity 2019.3.x.
+
+v1.6.1
+	- Some minor bugs have been fixed.
+	- It is now possible to create control components directly from the context menu, on the right mouse button.
+	- Now it is no longer necessary to save the scene to view the changes and components created.
+
+v1.5.2
+	- Now the Gizmos of the DragArea and other components are no longer displayed.
+	- The documentation has been updated to ensure greater clarity, volume of information, tips and minor corrections!
+
+v1.5.1
+	- DragArea now has an event system and for now, it is possible to register a callback that will be called
+	  whenever the user first touches the component area.
+	- JoystickAxis now has an event system and for now, it is possible to register a callback that will be called
+	  whenever the user first touches the component area.
+	- Now, both components return, in addition to the input value, the coordinate where the user's finger where
+	  he is now touching, in pixels.
+	- The documentation has been updated to incorporate changes.
+
+v1.4.3
+	- Fixed a minor issue with character movement and script demonstrating the use of controls.
+
+v1.4.2
+	- Following the rhythm of Unity Engine versions and to guarantee the good permanent support of this asset,
+	  now the minimum recommended version is 2018.1, however, you can still use this asset in the 2017.4 LTS
+	  version if you prefer. This will allow this asset to always have the latest features and better and
+	  more effective support!
+
+v1.4.1
+	- Fixed a bug that caused the compilation or loading time of the scene execution to increase considerably
+	  in the editor.
+
+v1.4.0
+	- Added a new demo scene.
+	- Fixed a bug when importing this asset for the first time, where a file error message was displayed.
+	  It was more common with Windows 10 users.
+	- There was a slight change in the asset API. Now, to access the API methods of this asset,
+	  use "using MTAssets.MobileInputControls".
+
+v1.3.2
+	- Improvements to undo actions.
+	- Script improvements.
+
+v1.3.1
+	- Joystick script improvements. You may need to delete the joystick GameObjects, and re-create them after upgrading
+	  to this version for everything to work properly.
+	- Improvements in the description of UI elements.
+	- Added a multiplier to read the moves made in the Drag Area component.
+	- Minor additions to the asset menu.
+	- Improvement of some asset codes.
+
+v1.2.1
+	- Fix a bug with the welcome message.
+	- Small housekeeping in scripts
+	- Improvement in the character's movement script, in the use example scene.
+
+v1.1.2
+	- The compatibility of the tool has been extended among more Unity versions!
+
+v1.1.1
+	- Minor improvements in code.
+
+v1.1
+	- The minimum support version is now Unity 2018.1.0f2. This change was made to ensure future improvements to the tool! Stay tuned!
+
+v1.0
+	- The Mobile Input Controls has just been released! I will always be working to support and add new features!
+	  Do you have any suggestions, Bug reports or any problems with using this asset? Contact by email!
+	  (mtassets@windsoft.xyz)
+
+/////////////////////
+  Email for support
+mtassets@windsoft.xyz
+/////////////////////
